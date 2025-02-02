@@ -106,11 +106,12 @@ MIT License -->
 
 
 # FAQ System
----
+
 A Django-based FAQ system with multilingual support, WYSIWYG editor integration, caching for fast responses, and a REST API for easy FAQ management.
----
+
 ## 📂 Project Structure
----
+
+```
 faq_project/                # Root Directory
 │── faq_system/             # Main Django Project
 │   │── __init__.py
@@ -138,49 +139,73 @@ faq_project/                # Root Directory
 │── .gitignore              # Ignore unnecessary files
 │── Dockerfile              # Docker support (optional)
 │── docker-compose.yml      # Docker setup (optional)
-
----
+```
 
 ## 🚀 Features
-✅ Store and manage FAQs: Simple and efficient FAQ management system.
-✅ WYSIWYG Editor: Rich text support for answers using django-ckeditor.
-✅ Multilingual Support: Automatic translation using Google Translate API.
-✅ REST API: Fetch FAQs in different languages using query parameters (?lang=hi).
-✅ Caching with Redis: Cache FAQ translations for faster responses.
-✅ Admin Panel: User-friendly admin interface to manage FAQs.
-✅ Docker Support: Containerized setup for easy deployment.
----
+
+✅ **Store and manage FAQs**: Simple and efficient FAQ management system.  
+✅ **WYSIWYG Editor**: Rich text support for answers using django-ckeditor.  
+✅ **Multilingual Support**: Automatic translation using Google Translate API.  
+✅ **REST API**: Fetch FAQs in different languages using query parameters (`?lang=hi`).  
+✅ **Caching with Redis**: Cache FAQ translations for faster responses.  
+✅ **Admin Panel**: User-friendly admin interface to manage FAQs.  
+✅ **Docker Support**: Containerized setup for easy deployment.  
+
 ## 🛠 Installation
-Clone the repository: git clone <your-github-repo-url>
+
+```bash
+git clone <your-github-repo-url>
 cd faq_project
-Set up a virtual environment:python3 -m venv venv
+
+# Set up a virtual environment
+python3 -m venv venv
 source venv/bin/activate  # For Windows, use `venv\Scripts\activate`
-Install dependencies: pip install -r requirements.txt
-Run database migrations: python manage.py migrate
-Start the Django development server: python manage.py runserver
-The app will be available at http://127.0.0.1:8000.
----
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run database migrations
+python manage.py migrate
+
+# Start the Django development server
+python manage.py runserver
+```
+
+The app will be available at `http://127.0.0.1:8000`.
+
 ## 📡 API Endpoints
-Fetch FAQs in English (default): curl http://127.0.0.1:8000/api/faqs/
-Fetch FAQs in Hindi: curl http://127.0.0.1:8000/api/faqs/?lang=hi
-Fetch FAQs in Bengali: curl http://127.0.0.1:8000/api/faqs/?lang=bn
----
 
----
+```bash
+# Fetch FAQs in English (default)
+curl http://127.0.0.1:8000/api/faqs/
+
+# Fetch FAQs in Hindi
+curl http://127.0.0.1:8000/api/faqs/?lang=hi
+
+# Fetch FAQs in Bengali
+curl http://127.0.0.1:8000/api/faqs/?lang=bn
+```
+
 ## 🏗 Deployment
-Docker: Build and start the container: docker-compose up --build
-Cloud (Coming soon!): Deployment options for Heroku, AWS, or DigitalOcean will be added soon.
----
 
---
+### **Docker**
+
+```bash
+docker-compose up --build
+```
+
+### **Cloud (Coming soon!)**
+Deployment options for Heroku, AWS, or DigitalOcean will be added soon.
+
 ## 🧪 Running Tests
-Run unit tests using pytest: pytest
----
 
----
+```bash
+pytest
+```
+
 ## ✅ Submission Steps
-Commit your changes to GitHub:
+
+```bash
 git add .
 git commit -m "chore: finalize project for submission"
 git push origin main
----
