@@ -112,13 +112,14 @@ To ensure everything works correctly, run the test suite: pytest
 
 ```
 ## ✅ Contribution & Submission Guide
-
+```bash
 🔹 Push Your Changes to GitHub
 git add .
 git commit -m "chore: finalize project for submission"
 git push origin main
 
 🏆 Your code is now pushed to GitHub and ready for review!
+```
 ----
 ## 📜 License
 
