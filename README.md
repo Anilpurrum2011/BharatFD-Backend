@@ -100,9 +100,12 @@ docker-compose up --build
 
 ```
 
-### ** ☁️ Cloud Deployment (Coming Soon!)**
+###  ☁️ Cloud Deployment (Coming Soon!)
 
-Deployment options for Heroku, AWS, or DigitalOcean will be added soon.
+- Heroku
+- AWS (EC2 / Lambda)
+- DigitalOcean
+
 --- 
 
 ## 🧪 Running Tests
@@ -114,9 +117,9 @@ To ensure everything works correctly, run the test suite: pytest
 ## ✅ Contribution & Submission Guide
 ```bash
 🔹 Push Your Changes to GitHub
-git add .
-git commit -m "chore: finalize project for submission"
-git push origin main
+ git add .
+ git commit -m "chore: finalize project for submission"
+ git push origin main
 
 🏆 Your code is now pushed to GitHub and ready for review!
 ```
@@ -144,13 +147,3 @@ Feel free to contribute or reach out!
 🌟 If you like this project, don't forget to ⭐ star the repo!
 
 ---
-
-## 🔹 **How This Helps in Shortlisting**
-
-- **Well-structured README:** Makes it easy for reviewers to understand your project quickly.
-- **Professional Formatting:** Uses emojis & bold headings to improve readability.
-- **Clear Feature Set:** Highlights why your project is useful.
-- **Step-by-Step Setup & Deployment:** Shows that it's easy to install and scale.
-- **Use Cases Section:** Shows real-world applications of your project.
-
-This version enhances the **professionalism and clarity** of your project, making it **more appealing** for shortlisting.
