@@ -36,14 +36,14 @@ faq_project/                # Root Directory
 
 ## 🚀 Features
 
-✔️ **Dynamic FAQ Management** – Create, edit, and delete FAQs easily.
-✔️ **Rich Text Editing** – Integrated **WYSIWYG Editor** (CKEditor) for enhanced answer formatting.
-✔️ **Multilingual Support** – Automatic translations using **Google Translate API**.
-✔️ **REST API Integration** – Fetch FAQs in different languages using `?lang=<language_code>`.
-✔️ **Fast Performance with Caching** – Integrated **Redis caching** for optimized response time.
-✔️ **User-Friendly Admin Panel** – Manage FAQs via Django Admin.
-✔️ **Scalable Deployment** – **Docker** support for seamless deployment.
-✔️ **Robust Unit Testing** – Ensures reliability and stability.
+- ✔️ **Dynamic FAQ Management** – Create, edit, and delete FAQs easily.
+- ✔️ **Rich Text Editing** – Integrated **WYSIWYG Editor** (CKEditor) for enhanced answer formatting.
+- ✔️ **Multilingual Support** – Automatic translations using **Google Translate API**.
+- ✔️ **REST API Integration** – Fetch FAQs in different languages using `?lang=<language_code>`.
+- ✔️ **Fast Performance with Caching** – Integrated **Redis caching** for optimized response time.
+- ✔️ **User-Friendly Admin Panel** – Manage FAQs via Django Admin.
+- ✔️ **Scalable Deployment** – **Docker** support for seamless deployment.
+- ✔️ **Robust Unit Testing** – Ensures reliability and stability.
 
 --- 
 
@@ -128,10 +128,10 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 ## 🎯 Why Choose This Project?
 
-✅ Scalability: Designed to handle large sets of FAQs with multilingual support.
-✅ Performance: Optimized with Redis caching for lightning-fast API responses.
-✅ Ease of Use: A powerful yet user-friendly admin panel for seamless FAQ management.
-✅ Deployment-Ready: Supports containerized deployment with Docker.
+- ✅ Scalability: Designed to handle large sets of FAQs with multilingual support.
+- ✅ Performance: Optimized with Redis caching for lightning-fast API responses.
+- ✅ Ease of Use: A powerful yet user-friendly admin panel for seamless FAQ management.
+- ✅ Deployment-Ready: Supports containerized deployment with Docker.
 
 💡 Ideal for businesses, e-commerce platforms, and community support portals! 🚀
 
