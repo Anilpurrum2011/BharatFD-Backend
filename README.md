@@ -88,15 +88,13 @@ curl http://127.0.0.1:8000/api/faqs/?lang=bn
 
 ```bash
 
-1️⃣ Build & Start the Container
+# 1️⃣ Build & Start the Container
 docker-compose up --build
 
-2️⃣ Stop the Running Containers
+# 2️⃣ Stop the Running Containers
 docker-compose down
 
-🚀 Your project is now containerized and can run anywhere!
-
-docker-compose up --build
+#🚀 Your project is now containerized and can run anywhere!
 
 ```
 
@@ -111,17 +109,18 @@ docker-compose up --build
 ## 🧪 Running Tests
 
 ```bash
-To ensure everything works correctly, run the test suite: pytest
+# To ensure everything works correctly, run the test suite:
+pytest
 
 ```
 ## ✅ Contribution & Submission Guide
 ```bash
-🔹 Push Your Changes to GitHub
+# 🔹 Push Your Changes to GitHub
  git add .
  git commit -m "chore: finalize project for submission"
  git push origin main
 
-🏆 Your code is now pushed to GitHub and ready for review!
+#🏆 Your code is now pushed to GitHub and ready for review!
 ```
 ----
 ## 📜 License
